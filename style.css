@@ -36,11 +36,11 @@ body {
   display: flex;
 }
 .block__container {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .task__input, .task__button {
-  outline:none;
+  outline: none;
 }
 .task__button {
   background: none;
@@ -97,7 +97,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  list-style:none;
+  list-style: none;
 }
 
 .task__input_checkbox {
@@ -129,14 +129,14 @@ body {
 
 /* Edit Task */
 .task__input_edit {
-  display:none;
+  display: none;
 }
 
 .task__list.editMode .task__input_edit {
-  display:inline-block;
-  width:224px;
+  display: inline-block;
+  width: 224px;
 }
 
 .task__list.editMode .task__name {
-  display:none;
+  display: none;
 }
