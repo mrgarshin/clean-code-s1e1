@@ -27,11 +27,6 @@ body {
   width: 500px;
   margin: 0 auto 0;
 }
-.task {
-  width: 56%;
-  display: inline-block;
-  flex-grow: 1;
-}
 .add-item__row {
   display: flex;
 }
@@ -108,9 +103,11 @@ body {
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
+  flex-grow: 1;
 }
 .task__input_edit {
   width: 226px;
+  flex-grow: 1;
 }
 .task__button_delete-image {
   height: 2em;
